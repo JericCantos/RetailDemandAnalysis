@@ -1,0 +1,10 @@
+artifact_location: file:///content/drive/MyDrive/Masterschool_Time_Series/mlflow_results/735047345586653469/models/m-39f131393d584bb79688568996f5fbcb/artifacts
+creation_timestamp: 1759151173693
+experiment_id: '735047345586653469'
+last_updated_timestamp: 1759151179355
+model_id: m-39f131393d584bb79688568996f5fbcb
+model_type: null
+name: model
+source_run_id: 80b0a8c326684620ac554fdedf2ef729
+status: 2
+status_message: null
