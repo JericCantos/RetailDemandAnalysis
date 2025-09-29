@@ -43,8 +43,9 @@ y_pred = model.predict(X_test)
 
 ## requirements
 
-* Python 3.12.11
-* Install:
+Python 3.12.11
+
+Install:
 - mlflow==3.4.0
 - category-encoders==2.8.1
 - cloudpickle==3.1.1
