@@ -13,9 +13,12 @@ file_urls = {
     "preliminary": "https://drive.google.com/file/d/1-slDnCsV-V-v1aS7maViZPiHIbLDWOv3",
         # contains rows of "train" belonging to the Guayas region, and only relating
         # to products from the top 3 families (GROCERY I,  BEVERAGES, and CLEANING)
-    "cleaned": "https://drive.google.com/file/d/1otcA0OoYn1QnG-hU-zKA-QfFsJ7g4HUX"
+    "cleaned": "https://drive.google.com/file/d/1otcA0OoYn1QnG-hU-zKA-QfFsJ7g4HUX",
         # preliminary dataset with days with 0 sales filled in, outliers tagged and 
         # winsorized, boolean flags set (including holiday marker), merged with df_items
         # and df_stores to include some item- and store-level information, and with 
         # date components extracted.
+    "engineered": "https://drive.google.com/file/d/164KmgUNQwex1qQUc7W9WTdThcY65nHc-"
+        # from the cleaned dataset, filtered only for records dated Jan 1 - Mar 31, 2014.
+        # introduced lags and rolling statistics to feed to the prediction model
 }
