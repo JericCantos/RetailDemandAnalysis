@@ -26,7 +26,7 @@ Using **MLflow**:
 ```python
 import mlflow.sklearn
 
-model = mlflow.sklearn.load_model("XGBTuned/artifacts")
+model = mlflow.sklearn.load_model("models/XGBTuned/artifacts")
 y_pred = model.predict(X_test)
 ```
 
@@ -35,7 +35,7 @@ Or using **plain pickle**:
 ```python
 import pickle
 
-with open("XGBTuned/artifacts/model.pkl", "rb") as f:
+with open("models/XGBTuned/artifacts/model.pkl", "rb") as f:
     model = pickle.load(f)
 
 y_pred = model.predict(X_test)
