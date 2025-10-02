@@ -43,16 +43,4 @@ y_pred = model.predict(X_test)
 
 ## requirements
 
-Python 3.12.11
-
-Install:
-- mlflow==3.4.0
-- category-encoders==2.8.1
-- cloudpickle==3.1.1
-- cvxopt==1.3.2
-- numpy==2.0.2
-- pandas==2.2.2
-- psutil==5.9.5
-- scikit-learn==1.6.1
-- scipy==1.16.2
-- xgboost==3.0.5
+see `requirements.txt` from `models/XGBTuned/artifacts` or `models/XGBVanilla/artifacts`
